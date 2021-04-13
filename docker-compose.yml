@@ -14,7 +14,7 @@ services:
     ports:
       - 1337:1337
     networks:
-      - docker-3_db-lan
+      - postgresql_db-lan
 
 networks:
   postgresql_db-lan:
