@@ -12,7 +12,7 @@ services:
     volumes:
       - ./strapi:/srv/app
     ports:
-      - ${STRAPI_PORTS}
+      - 1337:1337
     networks:
       - docker-3_db-lan
 
