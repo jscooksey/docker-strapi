@@ -17,5 +17,5 @@ services:
       - docker-3_db-lan
 
 networks:
-  docker-3_db-lan:
+  postgresql_db-lan:
     external: true
